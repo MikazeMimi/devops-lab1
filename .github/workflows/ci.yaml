@@ -24,7 +24,7 @@ jobs:
 
       - name: Verify HTML Structure
 
-        run:
+        run: |
 
           grep -q "<h1>" index.html && echo "HTML structure valid!"
 
